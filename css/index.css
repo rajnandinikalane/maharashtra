@@ -1,0 +1,329 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma ;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+   background: linear-gradient(rgba(0, 0, 0,0.1),rgba(255, 255, 255,0)),url(../seven.jpg);
+   background-size: cover;   
+   background-attachment: fixed;
+   color: white;
+   overflow-x: hidden;
+
+ 
+}
+.abt p{
+    justify-content: center;
+}
+.abt{
+    margin-left: 200px;
+    justify-content: center;
+}
+ .navfix{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    margin-top: -160px;
+ }
+.logo{
+     
+    size: 10px;
+    height: 75px;
+    width: 100%;
+    color: white;
+    background-color: #007fff;
+    
+}
+.logo img{
+     position: relative;
+     margin-left: 15px;
+     margin-top:px;
+     height: 80px;
+     width: 100px; 
+
+
+} 
+.logo1 img{
+    margin-left: 35px;
+    margin-top: -80px;
+}
+.navs{
+    position: relative;
+    background-attachment: fixed;
+    float: right;
+    margin-right: 35px;
+    word-spacing: 10px;
+    margin-top: -40px;   
+}
+
+.navs a{
+    position: relative;
+    text-decoration: none;
+    font-size:18px;
+    transition: 0.2s ease;
+    color:white;
+    padding: 5px;
+    transition: 0.1s ease;
+     
+
+}
+.navs a:hover{
+     color: black;
+    padding-bottom: 14px;
+    border-radius: 2px;
+ 
+    
+} 
+#section1{
+    height: 800px;
+}
+.heading{
+    margin-top: 160px;
+    margin-left: 100px;
+    color: white;
+}
+ .heading h1{
+    font-size: 100px;
+    text-shadow: 3px 5px grey;
+ } 
+
+.subhead p{
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+.subpart p{
+    word-spacing: 2px;
+    font-size: 15px;
+}
+.button{
+    margin-left: 100px;
+}
+.button a{
+ text-decoration: none;
+    font-size: 25px;
+    border: 1px solid white;
+    padding:5px;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    transition: 0.3s all;
+}
+.button a:hover{
+    background-color: #007fff;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #007fff;
+}
+
+#section2{
+    height: 800px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.tiger img{
+    height: 300px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+    border-radius: 10px;
+
+  box-shadow: 5px 5px 5px 5px grey;
+
+}
+.text{
+    height: 300px;
+    width: 700px;
+    background: white;
+    margin-left: 250px;
+    margin-top: -280px;
+    border-radius: 10px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.3),0 0 50px rgba(0, 0, 0, 0.3);
+}
+.subtext h1{
+    font-size: 20px;
+    margin-left: 280px;
+    padding: 10px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 10px;
+}
+.pre{
+    margin-left: 280px;
+}
+.pre1{
+   font-size: 15px;
+    margin-left: 275px;
+    padding: 10px;
+    font-weight: 2px;
+}
+.text p{
+     font-size: 15px;
+    margin-left: 300px;
+    line-height: 30px;
+     
+}
+.btn{
+    font-size: 15px;
+    margin-left: 500px;
+    padding: 10px;
+    font-weight: 2px;
+    margin-top: px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: 0.3s all;
+}
+.btn a:hover{
+    background: #007fff;
+    color: white;
+    border: 1px solid grey;
+    padding-right: 40px;
+}
+.btn img{
+    height: 35px;
+    width: 35x;
+    background-color:  ;
+    margin-top: -30px;
+    margin-left: 110px;
+
+}
+
+#section3{
+     height: 800px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.headtwo{
+    margin-left: 100px ;
+    color: white;
+}
+.headtwo h1{
+    padding-top: 100px;
+    font-size: 50px;
+     
+}
+.cards .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    margin-top: 20px;
+    float: right;
+    transition: transform 0.5s;
+    font-size: 10px;
+    transition: 0.5s ease;
+    overflow: hidden;
+    background:white;
+    color: ;
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+     box-shadow:0 1px 3px rgba(0, 0, 2, 0.5),0 0 50px rgba(0, 0, 0, 0.6);
+     height: 270px;
+
+}
+
+.card a{
+    text-decoration: none;
+    font-size: 18px;
+     
+      
+}
+.card1 img{
+    height: 230px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+.card2 img{
+     height: 230px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card3 img{
+     height: 230px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card4 img{
+     height: 230px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card5 img{
+     height: 230px;
+    width: 200px;
+    margin-left: -25px;
+    margin-top: -15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card p{
+    font-size: 14px;
+    padding: 8px;
+    color: #007fff;
+    margin-left: 25px;
+}
+.card p{
+      font-size: 14px;
+    padding: 8px;
+    color: #007fff;
+     
+}
+
+
+#section4{
+     height: 200px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.about{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 300px;
+    color: white;
+   
+ }
+
+ .headone{
+    margin-left: 480px;
+    padding-top: 15px;
+ }
+ .line{
+    height: 2px;
+    width: 220px;
+    background: white;
+    margin-left: 450px;
+ }
+
+ .myimg img{
+    height: 18px;
+    width: 18px;
+ }
